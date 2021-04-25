@@ -1,6 +1,6 @@
 {
   "name": "@colorssk-cli/core",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "> TODO: description",
   "author": "js-glen <1043075409@qq.com>",
   "homepage": "",
@@ -20,6 +20,6 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@colorssk-cli/util": "^1.0.0"
+    "@colorssk-cli/util": "^1.0.1"
   }
 }
