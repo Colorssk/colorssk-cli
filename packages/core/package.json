@@ -1,6 +1,6 @@
 {
   "name": "@colorssk-cli/core",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "> TODO: description",
   "author": "js-glen <1043075409@qq.com>",
   "homepage": "",
@@ -25,5 +25,5 @@
   "dependencies": {
     "@colorssk-cli/util": "^1.0.2"
   },
-  "gitHead": "0393fdb3405cb58385bb1083623bd532ad9fef9e"
+  "gitHead": "f19993830c0f2dec2f03f749842682e3e45a4b0e"
 }
