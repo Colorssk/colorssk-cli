@@ -6,6 +6,9 @@
   "homepage": "",
   "license": "ISC",
   "main": "lib/core.js",
+  "bin":{
+    "colorssk-cli": "bin/index.jd"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -21,5 +24,6 @@
   },
   "dependencies": {
     "@colorssk-cli/util": "^1.0.1"
-  }
+  },
+  "gitHead": "0393fdb3405cb58385bb1083623bd532ad9fef9e"
 }
