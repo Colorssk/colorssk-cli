@@ -1,6 +1,6 @@
 {
   "name": "@colorssk-cli/util",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "> TODO: description",
   "author": "js-glen <1043075409@qq.com>",
   "homepage": "",
@@ -13,11 +13,11 @@
   "files": [
     "lib"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "f19993830c0f2dec2f03f749842682e3e45a4b0e"
+  "gitHead": "f19993830c0f2dec2f03f749842682e3e45a4b0e",
+  "publishConfig": {
+    "access": "public"
+  }
 }
