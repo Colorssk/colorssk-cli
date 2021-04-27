@@ -1,12 +1,12 @@
 {
   "name": "@colorssk-cli/core",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "> TODO: description",
   "author": "js-glen <1043075409@qq.com>",
   "homepage": "",
   "license": "ISC",
   "main": "lib/core.js",
-  "bin":{
+  "bin": {
     "colorssk-cli": "bin/index.jd"
   },
   "directories": {
@@ -23,7 +23,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@colorssk-cli/util": "^1.0.1"
+    "@colorssk-cli/util": "^1.0.2"
   },
   "gitHead": "0393fdb3405cb58385bb1083623bd532ad9fef9e"
 }
