@@ -7,7 +7,7 @@
   "license": "ISC",
   "main": "lib/core.js",
   "bin": {
-    "colorssk-cli": "bin/index.jd"
+    "colorssk-cli": "bin/index.js"
   },
   "directories": {
     "lib": "lib",
@@ -20,7 +20,19 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@colorssk-cli/util": "^1.0.3"
+    "@colorssk-cli/get-npm-info": "file:../../utils/get-npm-info",
+    "@colorssk-cli/log": "file:../../utils/log",
+    "@colorssk-cli/init": "file:../../commands/init",
+    "@colorssk-cli/exec": "file:../exec",
+    "colors": "^1.4.0",
+    "commander": "^6.2.1",
+    "dotenv": "^8.2.0",
+    "import-local": "^3.0.2",
+    "npmlog": "^4.1.2",
+    "path-exists": "^4.0.0",
+    "root-check": "^1.0.0",
+    "semver": "^7.3.5",
+    "user-home": "^2.0.0"
   },
   "gitHead": "f19993830c0f2dec2f03f749842682e3e45a4b0e",
   "publishConfig": {
