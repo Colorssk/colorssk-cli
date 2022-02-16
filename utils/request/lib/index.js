@@ -2,8 +2,8 @@
 
 const axios = require('axios');
 
-const BASE_URL = process.env.IMOOC_CLI_BASE_URL ? process.env.IMOOC_CLI_BASE_URL :
-  'http://127.0.0.1:7001';
+const BASE_URL = process.env.COLORSSK_CLI_BASE_URL ? process.env.COLORSSK_CLI_BASE_URL :
+  'http://121.37.162.212:7001';
 
 const request = axios.create({
   baseURL: BASE_URL,

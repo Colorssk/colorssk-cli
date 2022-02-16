@@ -21,7 +21,7 @@ const TYPE_COMPONENT = 'component';
 const TEMPLATE_TYPE_NORMAL = 'normal';
 const TEMPLATE_TYPE_CUSTOM = 'custom';
 
-const WHITE_COMMAND = ['npm', 'cnpm'];
+const WHITE_COMMAND = ['npm', 'cnpm', 'yarn'];
 
 class InitCommand extends Command {
   init() {
@@ -113,7 +113,6 @@ class InitCommand extends Command {
         }
         Promise.all(files.map(file => {
           const filePath = path.join(dir, file);
-          console.log('filePath',filePath)
           return new Promise((resolve1, reject1) => {
             ejs.renderFile(filePath, projectInfo, {}, (err, result) => {
               if (err) {
@@ -279,6 +278,9 @@ class InitCommand extends Command {
     if (isValidName(this.projectName)) {
       isProjectNameValid = true;
       projectInfo.projectName = this.projectName;
+      log.verbose('here-------------------this.projectName', this.projectName)
+    }else{
+      log.verbose('here-------------------')
     }
     // 1. 选择创建项目或组件
     const { type } = await inquirer.prompt({
@@ -357,12 +359,15 @@ class InitCommand extends Command {
     if (type === TYPE_PROJECT) {
       // 2. 获取项目的基本信息
       const project = await inquirer.prompt(projectPrompt);
+      log.verbose('projectInfo---projectInfo:pre',projectInfo)
       projectInfo = {
         ...projectInfo,
         type,
         ...project,
       };
+      log.verbose('projectInfo---projectInfo::::',projectInfo)
     } else if (type === TYPE_COMPONENT) {
+      log.verbose('请输入组件描述信息------------')
       const descriptionPrompt = {
         type: 'input',
         name: 'componentDescription',
