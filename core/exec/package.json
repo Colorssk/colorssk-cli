@@ -29,6 +29,6 @@
   "dependencies": {
     "@colorssk-cli/log": "file:../../utils/log",
     "@colorssk-cli/package": "file:../../models/package",
-    "@colorssk-cli/util": "file:../../utils/utils"
+    "@colorssk-cli/utils": "file:../../utils/utils"
   }
 }

@@ -3,7 +3,7 @@
 const path = require('path');
 const Package = require('@colorssk-cli/package');
 const log = require('@colorssk-cli/log');
-const { exec: spawn } = require('@colorssk-cli/util');
+const { exec: spawn } = require('@colorssk-cli/utils');
 
 const SETTINGS = {
   init: '@colorssk/init',

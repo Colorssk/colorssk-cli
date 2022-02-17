@@ -31,7 +31,7 @@
     "@colorssk-cli/log": "file:../../utils/log",
     "@colorssk-cli/package": "file:../../models/package",
     "@colorssk-cli/request": "file:../../utils/request",
-    "@colorssk-cli/util": "file:../../utils/utils",
+    "@colorssk-cli/utils": "file:../../utils/utils",
     "ejs": "^3.1.5",
     "fs-extra": "^9.0.1",
     "glob": "^7.1.6",
