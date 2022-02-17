@@ -1,5 +1,5 @@
 {
-  "name": "get-npm-info",
+  "name": "@colorssk-cli/get-npm-info",
   "version": "1.0.3",
   "description": "> TODO: description",
   "author": "js-glen <1043075409@qq.com>",
@@ -13,6 +13,9 @@
   "files": [
     "lib"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Colorssk/colorssk-cli.git"
