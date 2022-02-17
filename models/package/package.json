@@ -1,6 +1,6 @@
 {
   "name": "@colorssk-cli/package",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "npm module",
   "author": "js-glen <1043075409@qq.com>",
   "homepage": "https://github.com/Colorssk/colorssk-cli#readme",
@@ -28,8 +28,8 @@
   },
   "dependencies": {
     "@colorssk-cli/format-path": "^1.0.4",
-    "@colorssk-cli/get-npm-info": "^1.0.6",
-    "@colorssk-cli/util": "^1.0.6",
+    "@colorssk-cli/get-npm-info": "^1.0.7",
+    "@colorssk-cli/util": "^1.0.7",
     "fs-extra": "^9.0.1",
     "npminstall": "^4.10.0",
     "path-exists": "^4.0.0",
