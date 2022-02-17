@@ -27,7 +27,7 @@
     "url": "https://github.com/Colorssk/colorssk-cli/issues"
   },
   "dependencies": {
-    "@colorssk-cli/log": "file:../../utils/log",
+    "@colorssk-cli/log": "^1.0.4",
     "colors": "^1.4.0",
     "semver": "^7.3.4"
   }

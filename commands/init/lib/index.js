@@ -11,7 +11,7 @@ const userHome = require('user-home');
 const Command = require('@colorssk-cli/command');
 const Package = require('@colorssk-cli/package');
 const log = require('@colorssk-cli/log');
-const { spinnerStart, sleep, execAsync } = require('@colorssk-cli/utils');
+const { spinnerStart, sleep, execAsync } = require('@colorssk-cli/util');
 
 const getProjectTemplate = require('./getProjectTemplate');
 

@@ -27,11 +27,11 @@
     "url": "https://github.com/Colorssk/colorssk-cli/issues"
   },
   "dependencies": {
-    "@colorssk-cli/command": "file:../../models/command",
-    "@colorssk-cli/log": "file:../../utils/log",
-    "@colorssk-cli/package": "file:../../models/package",
-    "@colorssk-cli/request": "file:../../utils/request",
-    "@colorssk-cli/utils": "file:../../utils/utils",
+    "@colorssk-cli/command": "^1.0.6",
+    "@colorssk-cli/log": "^1.0.4",
+    "@colorssk-cli/package": "^1.0.6",
+    "@colorssk-cli/request": "^1.0.6",
+    "@colorssk-cli/util": "^1.0.6",
     "ejs": "^3.1.5",
     "fs-extra": "^9.0.1",
     "glob": "^7.1.6",
