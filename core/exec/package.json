@@ -27,8 +27,8 @@
     "url": "https://github.com/Colorssk/colorssk-cli/issues"
   },
   "dependencies": {
-    "@colorssk-cli/log": "^1.0.7",
-    "@colorssk-cli/package": "^1.0.7",
-    "@colorssk-cli/util": "^1.0.7"
+    "@colorssk-cli/package": "file:../../models/package",
+    "@colorssk-cli/log": "file:../../utils/log",
+    "@colorssk-cli/util": "file:../../utils/utils"
   }
 }

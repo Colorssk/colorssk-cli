@@ -20,10 +20,10 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@colorssk-cli/exec": "^1.0.7",
-    "@colorssk-cli/get-npm-info": "^1.0.7",
-    "@colorssk-cli/init": "^1.0.7",
-    "@colorssk-cli/log": "^1.0.7",
+    "@colorssk-cli/exec": "file:../exec",
+    "@colorssk-cli/get-npm-info": "file:../../utils/get-npm-info",
+    "@colorssk-cli/init": "file:../../commands/init",
+    "@colorssk-cli/log": "file:../../utils/log",
     "colors": "^1.4.0",
     "commander": "^6.2.1",
     "dotenv": "^8.2.0",

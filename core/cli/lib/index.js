@@ -14,6 +14,7 @@ const exec = require('@colorssk-cli/exec');
 
 const program = new commander.Command();
 async function  core() {
+  console.log('execute----------')
     try {
         await prepare();
         registerCommand();
@@ -71,11 +72,17 @@ function registerCommand() {
 }
 
 async function prepare() {
+    console.log(123)
     checkPkgVersion();
+    console.log(223)
     checkRoot();
+    console.log(22333)
     checkUserHome();
+    console.log(22331231233)
     checkEnv();
+    console.log(22331231233333)
     await checkGlobalUpdate();
+    console.log(1111)
   }
   function checkPkgVersion() {
     log.info('cli', pkg.version);

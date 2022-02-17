@@ -5,7 +5,7 @@ const fse = require('fs-extra');
 const pkgDir = require('pkg-dir').sync;
 const pathExists = require('path-exists').sync;
 const npminstall = require('npminstall');
-const { isObject } = require('@colorssk-cli/util');
+const { isObject } = require('@colorssk-cli/utils');
 const formatPath = require('@colorssk-cli/format-path');
 const { getDefaultRegistry, getNpmLatestVersion } = require('@colorssk-cli/get-npm-info');
 

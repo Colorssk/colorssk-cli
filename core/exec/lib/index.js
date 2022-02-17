@@ -35,6 +35,7 @@ async function exec() {
       packageName,
       packageVersion,
     });
+    console.log('packageName--------------', packageName)
     if (await pkg.exists()) {
       // 更新package
       await pkg.update();
