@@ -1,6 +1,6 @@
 {
   "name": "@colorssk-cli/command",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "> TODO: description",
   "author": "js-glen <1043075409@qq.com>",
   "homepage": "https://github.com/Colorssk/colorssk-cli#readme",
@@ -27,8 +27,8 @@
     "url": "https://github.com/Colorssk/colorssk-cli/issues"
   },
   "dependencies": {
+    "@colorssk-cli/log": "file:../../utils/log",
     "colors": "^1.4.0",
-    "semver": "^7.3.4",
-    "@colorssk-cli/log": "file:../../utils/log"
+    "semver": "^7.3.4"
   }
 }
